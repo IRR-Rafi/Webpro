@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi</title>
+</head>
+<body>
+    <!-- Bagian header -->
+    <div>
+        <h1>Profile Pribadi</h1>
+        <!-- Tag div digunakan untuk mengelompokkan konten header -->
+    </div>
+
+    <!-- Isi konten -->
+    <div>
+        <!-- Profil berupa gambar dan video -->
+        <section id="tentang">  
+            <table>
+                <tr>
+                    <td>
+                        <h3 align="center">Foto Profil</h3>
+                        <div style="width: 230px; height: 230px; background-color: rgb(180, 176, 176); color: gray; font-size: x-large; font-family: Arial, Helvetica, sans-serif; 
+                        display: flex; align-items: center; justify-content: center;">
+                            <span>Foto Profil</span>
+                        </div>
+                    </td>
+                    <td>
+                        <h3 align="center">Video Perkenalan</h3>
+                            <video width="360" controls>
+                                <source src="video.mp4" type="video/mp4">
+                                Browser Anda tidak mendukung tag video.
+                            </video>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Tentang Saya</h2>
+            <p>Halo! Saya adalah seorang pengembang web antusias dengan passion di bidang teknologi dan desain kreatif.</p> <!-- Tag p digunakan untuk paragraf-->
+        </section>
+
+        <!-- Tabel keterampilan -->
+        <section id="keterampilan">
+            <h2>Keterampilan</h2>
+            <table>
+                <!-- Tag table digunakan untuk membuat tabel -->
+                <tr>
+                    <th>Keterampilan</th>
+                    <th>Tingkat</th>
+                </tr>
+                <!-- Tag tr digunakan untuk membuat baris dalam tabel -->
+                <tr>
+                    <td>HTML/CSS</td>
+                    <td>Mahir</td>
+                </tr>
+                <!-- Tag td digunakan untuk membuat sel dalam tabel -->
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Menengah</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Pemula</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Form kontak -->
+        <section id="kontak">
+            <h2>Hubungi Saya</h2>
+            <form>
+                <!-- Tag form digunakan untuk membuat formulir kontak -->
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama"> <br>
+                <!-- Tag input digunakan untuk input teks nama -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"> <br>
+                <!-- Tag input digunakan untuk input email -->
+                <label for="pesan">Pesan:</label> <br>
+                <textarea id="pesan" name="pesan"></textarea> <br>
+                <!-- Tag textarea digunakan untuk input pesan -->
+                <button type="submit">Kirim Pesan</button>
+                <!-- Tag button digunakan untuk tombol kirim -->
+            </form>
+            
+            <h3>Media Sosial:</h3>
+            <a href="https://linkedin.com">LinkedIn</a> | <a href="https://github.com">GitHub</a> | <a href="https://twitter.com">Twitter</a>
+            <!-- Tag a digunakan untuk membuat tautan ke media sosial -->
+        </section>
+    </div>
+</body>
+</html>
+
+
+ 
